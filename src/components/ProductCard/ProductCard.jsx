@@ -32,7 +32,7 @@ function ProductCard({ data }) {
 
       <div className="card__infos">
         <h2 className="card__title">{name}</h2>
-        <h2 className="card__price">R${formatCurrency(price, "BRL")}</h2>
+        <h2 className="card__price">R${formatCurrency(price, 'BRL')}</h2>
       </div>
 
       <h2 className="card__description">{description}</h2>

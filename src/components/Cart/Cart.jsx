@@ -22,7 +22,7 @@ function Cart() {
 
   useEffect(() => {
     if (finalBuy) {
-      alert("Compra Realizada com sucesso! Obrigado pela compra");
+      alert('Compra Realizada com sucesso! Obrigado pela compra');
       setFinalBuy(false);
     }
   }, [finalBuy]);
