@@ -7,9 +7,9 @@ import "./Carrossel.css";
 
 const Carousel = () => {
   const images = [
-    { src: img1, caption: 'Caption for Image 1' },
-    { src: img2, caption: 'Caption for Image 2' },
-    { src: img3, caption: 'Caption for Image 3' },
+    { src: img1, caption: "Caption for Image 1" },
+    { src: img2, caption: "Caption for Image 2" },
+    { src: img3, caption: "Caption for Image 3" },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
