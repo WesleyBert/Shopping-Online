@@ -2,6 +2,9 @@
 E-commerce React App
 Este é um projeto de um e-commerce desenvolvido com React que consome uma API open source para gerenciamento de produtos e pedidos. O aplicativo permite aos usuários adicionar itens ao carrinho, ajustar as quantidades, calcular automaticamente o valor total do carrinho e finalizar a compra.
 
+![shopping-video](https://github.com/WesleyBert/Shopping-Online/assets/90710910/0c0fc966-b666-4c80-91c2-3d045f132d7c)
+
+
 Funcionalidades
 Listagem de Produtos: Visualização de produtos disponíveis obtidos da API.
 Carrinho de Compras: Adição de itens ao carrinho, aumento e diminuição da quantidade de cada item.
@@ -43,15 +46,6 @@ npm start
 yarn start
 A aplicação estará disponível em http://localhost:3000.
 
-Estrutura do Projeto
-
-src/
-components/: Componentes reutilizáveis da aplicação.
-contexts/: Contextos para gerenciamento de estado global.
-services/: Configuração de API e funções de requisição.
-pages/: Páginas principais da aplicação.
-App.js: Componente principal da aplicação.
-index.js: Arquivo de entrada do React.
 
 Consumo da API
 
